@@ -1,0 +1,11 @@
+
+
+
+ffplay -protocol_whitelist "file,rtp,udp" test_h265.sdp
+
+
+source devel/setup.bash
+rosrun ffmpeg_encode_sdp main
+
+
+
